@@ -306,23 +306,9 @@
         <module>common-phuc</module>
     </modules>
 
-    <repositories>
-        <repository>
-            <id>github.phucngg</id>
-            <name>GitHub Phuc Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/phucngg/common-phuc</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <distributionManagement>
         <repository>
-            <id>github.phucngg</id>
+            <id>github</id>
             <name>Parent Phuc</name>
             <url>https://maven.pkg.github.com/phucngg/parent-phuc</url>
         </repository>
