@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>parent-phuc</artifactId>
+    <groupId>dev</groupId>
+    <version>1.0</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>front-phuc</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>front-phuc</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.jacpfx</groupId>
+      <artifactId>jacpfx.JavaFX</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jacpfx</groupId>
+      <artifactId>jacpfx.API</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jacpfx</groupId>
+      <artifactId>jacpfx.JavaFXSpring</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jacpfx</groupId>
+      <artifactId>jacpfx.JavaFXControls</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>
